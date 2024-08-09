@@ -2,7 +2,6 @@
 
 ---
 
-
 # Semi-Supervised Medical Image Segmentation via Feature-level Cross-teaching between CNN and Transformer
 **Notebook Author - Taritro Ghoshal**
 
@@ -12,7 +11,6 @@ This dissertation explores the development and application of a novel semi-super
 
 The experimental results indicate a significant improvement in segmentation accuracy, demonstrating the effectiveness of feature-level cross-teaching. It also shows that this approach is capable of capturing both local information, which is the strength of CNNs, and long-range relations, which is the strength of Transformers. This successful combination offers a promising approach to enhance the performance of semi-supervised medical image segmentation, especially in settings where labelled data are scarce.
 
----
 ## Conclusion
 
 The objective of this dissertation was to investigate the merits of collaborative learning in neural networks, specifically via a cross-teaching mechanism that leverages feature-level loss. The empirical studies and subsequent analyses have not only illuminated the strengths and areas of potential refinement but also underscored the vast promise this approach holds for the broader domain of deep learning.
