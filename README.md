@@ -21,9 +21,9 @@ The backbone of this research—the feature-level loss—demonstrated its centra
 
 SNo | Model | Validation Dice Score | Validation IOU Score
 ------------- | ------------- | ----------- | ---------------
-1. | U-Net | 0.869 | 0.793
-2. | Swin U-Net | 0.850	| 0.768
-3. | Feature Cross-teaching (U-Net + Swin U-Net) | 0.889 | 0.825
+1 | U-Net | 0.869 | 0.793
+2 | Swin U-Net | 0.850	| 0.768
+3 | Feature Cross-teaching (U-Net + Swin U-Net) | 0.889 | 0.825
 
 In summation, the empirical outcomes provide a lucid narrative. While standalone models, such as U-Net and Swin U-Net, deliver robust results, their amalgamation within a feature-level cross-teaching paradigm elevates their performance to a superior plane. This is a salient testament to the efficacy of collaborative learning and the pivotal role of feature supervision. Given the demonstrated improvements, this novel approach heralds significant implications for future segmentation tasks, potentially setting a new benchmark in the field.
 
