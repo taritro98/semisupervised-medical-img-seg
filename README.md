@@ -17,6 +17,15 @@ The objective of this dissertation was to investigate the merits of collaborativ
 The comparative analysis drew sharp distinctions between standalone architectures, such as U-Net and Swin U-Net, and their performance within a feature-level cross-teaching framework. The standalone models, reputable in their own right, exhibited commendable results in segmentation tasks. However, the cross-teaching approach's superior performance, both quantitatively and qualitatively, provided compelling evidence in favour of collaborative learning mechanisms.
 The backbone of this research—the feature-level loss—demonstrated its centrality and efficacy. Its convergence, as evidenced in the results, alluded to its instrumental role in guiding the model's learning trajectory. Moreover, the refined and noise-free predictions obtained under the cross-teaching paradigm vis-à-vis standalone configurations attested to the inherent benefits of introducing feature supervision within a collaborative learning framework.
 
+## Results
+
+SNo | Model | Validation Dice Score | Validation IOU Score
+------------- | ------------- | -----------
+1. | U-Net | 1.17 RMSLE | 0.869 | 0.793
+2. | Swin U-Net | 0.850	| 0.768
+3. | Feature Cross-teaching (U-Net + Swin U-Net) | 0.889 | 0.825
+
+In summation, the empirical outcomes provide a lucid narrative. While standalone models, such as U-Net and Swin U-Net, deliver robust results, their amalgamation within a feature-level cross-teaching paradigm elevates their performance to a superior plane. This is a salient testament to the efficacy of collaborative learning and the pivotal role of feature supervision. Given the demonstrated improvements, this novel approach heralds significant implications for future segmentation tasks, potentially setting a new benchmark in the field.
 
 ##  Future Work
 While the current research provides substantive insights into the benefits of the feature-level cross-teaching paradigm, several avenues remain unexplored, offering fertile ground for future endeavours:
