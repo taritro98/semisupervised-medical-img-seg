@@ -21,7 +21,7 @@ The backbone of this research—the feature-level loss—demonstrated its centra
 
 SNo | Model | Validation Dice Score | Validation IOU Score
 ------------- | ------------- | ----------- | ---------------
-1. | U-Net | 1.17 RMSLE | 0.869 | 0.793
+1. | U-Net | 0.869 | 0.793
 2. | Swin U-Net | 0.850	| 0.768
 3. | Feature Cross-teaching (U-Net + Swin U-Net) | 0.889 | 0.825
 
